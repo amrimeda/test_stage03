@@ -13,3 +13,9 @@ BEGIN
     LIMIT 10;
 END;
 $$ LANGUAGE plpgsql;
+
+
+-- SELECT * FROM "mohamed-abdelkayoum.amri.1@ens.etsmtl.ca".recherche('canada');
+-- Voici un exemple d'une requête implémentant la fonction "recherche" :
+
+
