@@ -1,4 +1,6 @@
-
+-- Dans cet exemple, j'ai utilisé l'alias s pour la vue "score", et j'ai spécifié 
+-- s.html_content pour indiquer explicitement que nous faisons référence à la colonne
+-- html_content de la vue "score".
 
 CREATE OR REPLACE FUNCTION "mohamed-abdelkayoum.amri.1@ens.etsmtl.ca".recherche(keyword TEXT)
 RETURNS TABLE (id UUID, html_content TEXT, score NUMERIC) AS $$
