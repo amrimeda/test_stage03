@@ -1,3 +1,4 @@
+-- Créer la vue "score"
 
 CREATE OR REPLACE VIEW "mohamed-abdelkayoum.amri.1@ens.etsmtl.ca".score AS
 SELECT *,
